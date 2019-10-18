@@ -36,7 +36,6 @@ custom:
     includeModules: true
   customDomain:
     domainName: test-graphql.hsol.io
-    basePath: graphql
     stage: ${self:provider.stage}
     certificateName: "test-graphql.hsol.io"
     createRoute53Record: true
