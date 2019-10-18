@@ -7,5 +7,8 @@ export default gql`
     """
     testMessage: String!
     token: String!
+    context: JSON!
   }
+
+  scalar JSON
 `;

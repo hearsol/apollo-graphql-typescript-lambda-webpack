@@ -9,7 +9,7 @@
     "dotenv": "^8.1.0",
     "dotenv-webpack": "^1.7.0",
     "graphql": "^14.5.8",
-    "serverless-dotenv-plugin": "^2.1.1"
+    "graphql-type-json": "^0.3.0"
   },
   "scripts": {
     "build": "ncp .env.prod .env && webpack --config webpack.prod.js",
@@ -25,6 +25,7 @@
     "ncp": "^2.0.0",
     "serverless": "^1.54.0",
     "serverless-domain-manager": "^3.3.0",
+    "serverless-dotenv-plugin": "^2.1.1",
     "serverless-webpack": "^5.3.1",
     "ts-loader": "6.0.0",
     "typescript": "^3.6.4",
